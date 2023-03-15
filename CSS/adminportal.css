@@ -1,0 +1,328 @@
+html {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+*::before,
+*::after {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+    /* background: rgb(136 211 241 / 33%); */
+    background: #ffffff66;
+    /* background: linear-gradient(270deg, rgba(216, 210, 210, 0.397), rgba(163, 165, 163, 0.527), rgba(109, 220, 228, 0.438)); */
+}
+
+
+
+/*<------------------Header for everypage-------------------->*/
+
+#headerforeverypage {
+    display: block;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.uninamelogo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(22, 223, 223, 0.534);
+}
+
+.unilogo {
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+.unilogoImage {
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    margin-top: 0.1%;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.universitynameandlogo {
+    align-items: center;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.colgname {
+    border: 1px solid black;
+    background: rgba(54, 243, 110, 0.849);
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.department {
+    border: 1px solid black;
+    background: rgba(63, 151, 233, 0.425);
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*<---------------------Footer part for every Page--------------------->*/
+
+#footerforeverypage {
+    display: flex;
+    position: sticky;
+    position: fixed;
+    width: 100%;
+    font-weight: bold;
+    height: 10vh;
+    background-color: #1f2c38;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.usefullinks {
+    border: 2px solid red;
+    display: flex;
+    border-radius: 5px;
+    margin: 1%;
+    width: 50%;
+    min-height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #0fdb6bd5;
+}
+
+/*<---------------------End of Footer part for every Page--------------------->*/
+
+
+/*<--------------------------ADMIN Login Portal------------------------------->*/
+.adminpagemainframe {
+    border: 2px solid black;
+    min-width: 250px;
+    max-width: 500px;
+    min-height: 450px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(185, 183, 183, 0.24);
+    background: #1f2c38;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0px 20px 61px 5px #0000009c;
+    /* text-align: center; */
+    /* width: 30%; */
+    /* min-height: 30%; */
+}
+
+.adminpagemainframe h1 {
+    color: #fdd835;
+    text-align: center;
+    margin-top: 12%;
+    /* box-shadow: 0px 2px 2px 2px rgb(90, 90, 90); */
+    border-radius: 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+}
+
+.adminpagemainframe label {
+    display: block;
+    margin-left: 7%;
+    margin-top: 6%;
+    margin-bottom: 0;
+    font-size: 24px;
+}
+
+.adminpagemainframe input {
+    width: 90%;
+    height: 5%;
+    border-radius: 10px;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    font-size: 25px;
+    overflow-x: auto;
+    box-shadow: 0px 1px 1px 1px rgb(90, 90, 90);
+}
+
+#Password {
+    font-size: 35px;
+}
+
+
+.uservalues {
+    /* border: 1px solid; */
+    margin-top: 15%;
+}
+
+/* Login button*/
+.adminpagemainframe button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    cursor: pointer;
+    font-size: 22px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    background: #0e9b0e;
+    color: white;
+    font-weight: bolder;
+}
+
+/*log in button*/
+
+.adminportalbasequeries {
+    display: flex;
+    min-width: 60%;
+    max-width: 80%;
+    min-height: 6%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-right: auto;
+    /* border: 1px solid; */
+}
+
+.forgotpass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid; */
+    font-size: 2vh;
+    text-align: center;
+}
+
+.forgotpass a {
+    text-decoration: none;
+    color: white;
+}
+
+.registerforadmin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid; */
+    font-size: 2vh;
+    text-align: center;
+}
+
+.registerforadmin a {
+    text-decoration: none;
+    color: white;
+}
+
+.guestorstudent {
+    text-align: center;
+    /* border: 2px solid; */
+    padding-top: 2%;
+    border-radius: 20px;
+}
+
+.guestorstudent button {
+    width: 80%;
+    margin-bottom: 5%;
+    background: linear-gradient(0deg, #fdd835, #fdd835, #c4b369);
+    color: black;
+    margin-top: 6px;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+
+
+#message {
+    display: block;
+    border: 2px solid #00000042;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+    width: 32%;
+    padding-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    margin-bottom: 2%;
+}
+
+#message p {
+    padding: 0px 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    left: -12px;
+    content: "&#10004;";
+}
+
+/* Add a red text color and an "x" icon when the requirements are wrong */
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -12px;
+    content: "&#10006;";
+}
+
+.container {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/*<-------------------------------End Admin login portal----------------------->*/
+
+@media only screen and (max-width : 540px) {
+    #message {
+        display: block;
+        border: 2px solid #00000042;
+        background: #f1f1f1;
+        color: #000;
+        position: relative;
+        padding: 20px;
+        margin-top: 10px;
+        width: 86%;
+        padding-bottom: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 12px;
+        margin-bottom: 10%;
+    }
+}
