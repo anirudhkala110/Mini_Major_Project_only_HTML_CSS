@@ -1,0 +1,59 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="../CSS/adminportal.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Student-Corner-Home-Page</title>
+    </head>
+    <body>
+        <div id="headerforeverypage">
+                <div class="uninamelogo">
+                    <div class="unilogo">
+                        <a href=""> <img src="../Media/Images/Pantnagar_logo.jpg" alt=""
+                                class="unilogoImage">
+                        </a>
+                    </div>
+                    <div class="universitynameandlogo">Govind Ballabh Pant
+                        University of
+                        Acgriculture and technology
+                    </div>
+                </div>
+                <div class="colgname">College of Technology</div>
+                <div class="department">Information Technology</div>
+        </div>  
+
+        <div class="adminpagemainframe">
+               <h1>Admin Login Portal</h1>
+                <div class="uservalues">
+                    <form action="/action_page.php">
+                        <label for="usrname">Username</label>
+                        <input type="text" id="usrname" name="usrname" required>
+                        <label for="psw">Password</label>
+                        <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
+                        <button id="login" onclick="login()">Login</button>
+                    </form>
+                </div>
+
+                <div class="adminportalbasequeries">
+                    <div class="forgotpass"><a href="http://">Forgot Password ?</a></div>
+                    <div class="registerforadmin"><a href="http://">Register to
+                            Admin !</a>
+                    </div>
+                </div>
+                <div class="guestorstudent">
+                    Or View as a Guest or Student
+                    <button id="guest" onclick="guest()">Guest</button>
+                </div>
+        </div>
+        <div id="message">
+            <h2>Password must contain the following:</h2>
+            <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+            <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+            <p id="number" class="invalid">A <b>number</b></p>
+            <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+        </div>
+        <script src="../JS/adminportal.js"></script>
+
+    </body>
+</html>
